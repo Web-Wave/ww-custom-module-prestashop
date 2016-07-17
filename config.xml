@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>wwpopup</name>
+	<displayName><![CDATA[WW Popup]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[A custom module for add a popup on the homepage.]]></description>
+	<author><![CDATA[Web-Wave]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall WW Popup?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

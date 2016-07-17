@@ -1,0 +1,50 @@
+/***** WW Popup CSS *****/
+#ww_popup #dialog {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+#ww_popup #mask{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none;
+}
+#ww_popup #dialog h4,
+#ww_popup #dialog h5,
+#ww_popup #dialog h6{
+  text-align: center;
+}
+#ww_popup #dialog img{
+  height: auto;
+  padding: 25px 0 50px 0;
+  width: 100%;
+  display: block;
+}
+#ww_popup #dialog #close{
+  width: 28px;
+  height: 28px;
+  background: none;
+  font-family: arial;
+  text-transform: uppercase;
+  text-decoration:  none;;
+  border: 0;
+  font-size: 20px;
+  line-height: 28px;
+  color: #282828;
+  text-align: center;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-weight: bold;
+}
+#ww_popup #dialog #close:hover{
+  cursor: pointer;
+}
